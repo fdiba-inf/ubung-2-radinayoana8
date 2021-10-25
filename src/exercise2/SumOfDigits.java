@@ -19,7 +19,7 @@ public class SumOfDigits {
 
          int sum = firstDigit + secondDigit + thirdDigit;
 
-         System.out.println("Sum of Digits: " + sum);
+         System.out.println("Sum of digits: " + sum);
   }
 }  
 
