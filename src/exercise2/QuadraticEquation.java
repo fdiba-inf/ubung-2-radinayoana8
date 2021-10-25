@@ -14,22 +14,22 @@ public class QuadraticEquation {
 
      if (a != 0) {
        double d = b * b - 4 * a * c;
-        if (d >= 0) {
+       if (d >= 0) {
          double x1 = (-1 + Math.sqrt(d)) / 2 * a;
-          double x2 = (-1 - Math.sqrt(d)) / 2 * a;
-      System.out.println(x1 + "," + x2);
-     } else {
-       System.out.println( "Imaginary values");
-       }
+         double x2 = (-1 - Math.sqrt(d)) / 2 * a;
+         System.out.println(x1 + "," + x2);
+      } else {
+        System.out.println( "Imaginary values");
+      }
    
-    }  else if (b != 0) {
-          double x = -c / b;
-       System.out.println(x);
-    } else if (c != 0) {
-     System.out.println("No values");
+     }  else if (b != 0) {
+         double x = -c / b;
+        System.out.println(x);
+     } else if (c != 0) {
+        System.out.println("No values");
      } else {
-     System.out.println("Many values");
-    }
+        System.out.println("Many values");
+     }
 
   }
 
